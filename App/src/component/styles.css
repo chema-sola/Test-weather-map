@@ -1,0 +1,27 @@
+.grid-container {
+    display: grid;
+    margin: auto;
+    margin-top: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));
+}
+
+.grid-container--fill {
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+}
+
+.grid-container--fit {
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+}
+
+
+
+.grid-element {
+  padding: 5px;
+  border: 1px solid rgb(16, 15, 15);
+}
+
+
+.nameDay {
+    color: cornflowerblue;
+    font-size: x-large  ;
+}

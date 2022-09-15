@@ -1,0 +1,3 @@
+const WEATHER_KEY = '53c088bd95bb9a6216727a7388c68448'
+
+export default WEATHER_KEY
